@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonicretro.org">
+	<Groups>
+		<Group name="Options">
+			<Property name="IncludeDir0" type="Track" display="Track version" defaultvalue="SA2">>
+				<HelpText>The version of Green Hill track.</HelpText>
+			</Property>
+		</Group>
+	</Groups>
+	
+	
+	<Enums>
+		<Enum name="Track">
+			<EnumMember name="STH" display="Genesis" />
+			<EnumMember name="SA2" display="Adventure 2" />
+            <EnumMember name="SGC" display="Generations Classic" />
+			<EnumMember name="SGM" display="Generations Modern" />
+		</Enum>	
+	</Enums>
+</ConfigSchema>
